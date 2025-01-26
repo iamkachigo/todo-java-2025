@@ -6,6 +6,7 @@ public class Task {
         this.description = description;
         this.isCompleted = false;
     }
+
     public String getDescription() {
         return description;
     }
@@ -23,4 +24,3 @@ public class Task {
         return (isCompleted ? "[X] " : "[ ] ") + description;
     }
 }
-
